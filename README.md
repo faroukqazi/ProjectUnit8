@@ -3,7 +3,7 @@ Project Unit 8
 
 # Pen Testing Live Targets
 
-Time spent: **X** hours spent in total
+Time spent: **3** hours spent in total
 
 > Objective: Identify vulnerabilities in three different versions of the Globitek website: blue, green, and red.
 
@@ -20,9 +20,9 @@ Each color is vulnerable to only 2 of the 6 possible exploits. First discover wh
 
 ## Blue
 
-Vulnerability #1: __________________
+Vulnerability #1: SQL Injection
 
-Description:
+Description: In the Find a Salesperson page, I used SQL injection in the URL. I injected code into the GET for id part of the URL https://35.184.88.145/blue/public/salesperson.php?id= This vulnerability enables the attacker to gain insecure access to the details in the tables and columns in the database.
 
 <img src="blue-vuln1.gif">
 
