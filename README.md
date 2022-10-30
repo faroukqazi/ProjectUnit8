@@ -22,7 +22,8 @@ Each color is vulnerable to only 2 of the 6 possible exploits. First discover wh
 
 Vulnerability #1: SQL Injection
 
-Description: In the Find a Salesperson page, I used SQL injection in the URL. I injected code into the GET for id part of the URL https://35.184.88.145/blue/public/salesperson.php?id= This vulnerability enables the attacker to gain insecure access to the details in the tables and columns in the database.
+Description: In the Find a Salesperson page, I used SQL injection in the URL. I injected code into the GET for id part of the URL https://35.184.88.145/blue/public/salesperson.php?id= This vulnerability enables the attacker to gain insecure access to the details in the tables and columns in the database. 
+' AND 0 UNION SELECT 1,2,3,4,GROUP_CONCAT(table_name,0x2e,column_name,"\n") FROM information_schema.columns WHERE table_schema=database()--'
 
 <img src="blue-vuln1.gif">
 
