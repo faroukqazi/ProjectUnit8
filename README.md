@@ -3,7 +3,7 @@ Project Unit 8
 
 # Pen Testing Live Targets
 
-Time spent: **3** hours spent in total
+Time spent: **5** hours spent in total
 
 > Objective: Identify vulnerabilities in three different versions of the Globitek website: blue, green, and red.
 
